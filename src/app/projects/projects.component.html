@@ -1,0 +1,17 @@
+<section id="technologies">
+    <h2 class="mx-auto max-w-screen-xl px-4">Porfolio desarrollador Full-Stack</h2>
+    <div class="tech grid grid-cols-2 md:grid-cols-3 gap-8 px-4 py-8 mx-auto max-w-screen-xl">
+        <app-tech-card 
+            *ngFor="let web of webs" 
+            [data]="web">
+        </app-tech-card>
+    </div>
+
+    <h2 class="mx-auto max-w-screen-xl px-4">Porfolio desarrollador de videojuegos y VRV</h2>
+    <div class="tech grid grid-cols-2 md:grid-cols-3 gap-8 px-4 py-8 mx-auto max-w-screen-xl">
+        <app-tech-card 
+            *ngFor="let unityProject of unityProjects" 
+            [data]="unityProject">
+        </app-tech-card>
+    </div>
+</section>

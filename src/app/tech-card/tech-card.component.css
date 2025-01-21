@@ -1,0 +1,15 @@
+.general-card-container {
+    
+}
+
+.card-elments-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tech-icon {
+    width: 100%;
+    max-width: 100px;
+}

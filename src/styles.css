@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #212428;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+  
