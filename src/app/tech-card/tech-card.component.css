@@ -1,15 +1,38 @@
 .general-card-container {
-    
+    border: none;
+    background: linear-gradient(to left top, #212428, #16181c);
+    box-shadow: 4px -4px 10px rgba(33, 36, 40, 0.6), -4px 4px 10px rgba(22, 24, 28, 0.6);
 }
 
-.card-elments-container {
+.general-card-container:hover {
+    cursor: pointer;
+}
+
+.img-container {
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+}
+
+.img-container img {
+    width: auto;
+    height: auto;
+}
+
+.img-container:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .tech-icon {
     width: 100%;
-    max-width: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+h3 {
+    font-size: 12px;
+    color: #ff014f;
 }

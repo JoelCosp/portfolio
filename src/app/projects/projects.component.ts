@@ -16,15 +16,15 @@ const GLOBAL_MATERIALS = [
 })
 export class ProjectsComponent {
   webs = [
-    {title: 'La Mallorquina', description: '', img: 'assets/images/projects/iwatch-frame.jpg', video: ''},
-    {title: 'iWatch', description: '', img: 'assets/images/css.png', video: ''},
-    {title: 'Proyecto Firebase: Respositorio de manga online', description: '', img: 'assets/images/js.png', video: ''},
-    {title: 'Pagina informativa con API', description: '', img: 'assets/images/js.png', video: ''}
+    {title: 'La Mallorquina', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
+    {title: 'iWatch', description: '', img: 'assets/images/projects/iwatch-frame.jpg', video: ''},
+    {title: 'Proyecto Firebase: Respositorio de manga online', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
+    {title: 'Pagina informativa con API', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''}
   ];
 
   unityProjects = [
-    {title: 'Dont\'t die', description: '', img: 'assets/images/angular.png', video: ''},
-    {title: 'Ron y Gloria: Resacón en la perla negra', description: '', img: 'assets/images/laravel.png', video: ''},
-    {title: 'Monsterrat i les bèsties màgiques', description: '', img: 'assets/images/vue.png', video: ''},
+    {title: 'Dont\'t die', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
+    {title: 'Ron y Gloria: Resacón en la perla negra', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
+    {title: 'Monsterrat i les bèsties màgiques', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
   ];
 }

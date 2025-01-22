@@ -8,3 +8,12 @@ nav {
     justify-content: center;
     color: rgb(157 164 176);
 }
+
+.header-profile-image {
+    max-width: 60px;
+}
+
+li:hover a{
+    color: #ff014f;
+    transition: all 0.3s ease;
+}

@@ -1,14 +1,17 @@
 button {
-    background-color: #ff014f;
+    border: 2px solid #ff014f;
+    color: #ff014f;
+    font-weight: 700;
 }
 
 button:hover {
     background-color: white;
+    border: 2px solid white;
     color: #212428;
     transition: all 0.3s ease;
 }
 
-button:hover svg path{
-    stroke: #212428;
+button:hover svg {
+    fill: #212428;
     transition: all 0.3s ease;
 }
