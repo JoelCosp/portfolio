@@ -1,6 +1,19 @@
 h1 {
     font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
     /* background: -webkit-linear-gradient(45deg, #905DD3, #29A2C9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
+
+@media only screen and (max-width: 1050px) {
+    #presentation {
+      padding-top: 100px;
+    }
+
+    .elements-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  }
