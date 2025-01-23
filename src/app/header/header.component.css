@@ -13,7 +13,27 @@ nav {
     max-width: 60px;
 }
 
+li a {
+    color: #C4CFDE;
+}
+
 li:hover a{
     color: #ff014f;
     transition: all 0.3s ease;
+}
+
+#gh-btn {
+    display: none;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 767px) {
+    .header-profile-image {
+        display: none;
+    }
+
+    #gh-btn {
+        display: block;
+    }   
 }

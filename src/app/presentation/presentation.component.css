@@ -7,9 +7,13 @@ h1 {
     -webkit-text-fill-color: transparent; */
 }
 
+#presentation {
+  padding-top: 100px;
+}
+
 @media only screen and (max-width: 1050px) {
     #presentation {
-      padding-top: 100px;
+      padding-top: 65px;
     }
 
     .elements-container {

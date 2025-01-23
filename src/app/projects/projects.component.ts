@@ -16,15 +16,15 @@ const GLOBAL_MATERIALS = [
 })
 export class ProjectsComponent {
   webs = [
-    {title: 'La Mallorquina', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
-    {title: 'iWatch', description: '', img: 'assets/images/projects/iwatch-frame.jpg', video: ''},
-    {title: 'Proyecto Firebase: Respositorio de manga online', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
-    {title: 'Pagina informativa con API', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''}
+    {title: 'La Mallorquina', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: '', label: ["HTML", "CSS", "PHP", "JS"]},
+    {title: 'iWatch', description: '', img: 'assets/images/projects/iwatch-frame.jpg', video: '', label: ["HTML", "CSS", "PHP", "JS", "VUE", "LARAVEL"]},
+    {title: 'Proyecto Firebase: Respositorio de manga online', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: '', label: ["HTML", "CSS", "PHP", "JS", "ANGULAR", "TAILWIND"]},
+    {title: 'Pagina informativa con API', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: '', label: ["HTML", "CSS", "PHP", "JS"]}
   ];
 
   unityProjects = [
-    {title: 'Dont\'t die', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
-    {title: 'Ron y Gloria: Resacón en la perla negra', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
-    {title: 'Monsterrat i les bèsties màgiques', description: '', img: 'assets/images/projects/mallorquina-frame.jpg', video: ''},
+    {title: 'Don\'t die', description: '', img: 'assets/images/projects/dont-die-frame.jpg', video: '', label: ["UNITY", "C#"]},
+    {title: 'Ron y Gloria: Resacón en el Galeón Oscuro', description: '', img: 'assets/images/projects/pirata-frame.jpg', video: '', label: ["UNITY", "C#"]},
+    {title: 'Monsterrat i les bèsties màgiques', description: '', img: 'assets/images/projects/montserrat-frame.jpg', video: '', label: ["UNITY", "C#"]},
   ];
 }

@@ -18,9 +18,10 @@ body {
 }
 
 h2 {
-    color: white;
+    color: #C4CFDE;
     text-align: center;
-    font-size: 35px;
+    font-size: clamp(30px, 4vw, 70px);
+    /* font-size: 35px; */
     font-weight: 700;
 }
   

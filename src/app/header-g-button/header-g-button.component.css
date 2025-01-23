@@ -15,3 +15,9 @@ button:hover svg {
     fill: #212428;
     transition: all 0.3s ease;
 }
+
+@media only screen and (max-width: 767px) {
+    .gh-link {
+        display: none;
+    }
+}
