@@ -1,7 +1,10 @@
 <!-- Tarjeta -->
 <div class="max-w-sm border rounded-lg shadow general-card-container p-5" (click)="openModal(data)">
     <div class="img-container">
-        <img class="tech-icon" [src]="data.img" alt="" />
+        <img *ngIf="data?.img;else other_content" class="tech-icon" [src]="data.img" alt="" />
+        <ng-template #other_content>
+            <img class="tech-icon" src="assets/images/projects/ed.png" alt="" />
+        </ng-template>
     </div>
     <div *ngIf="data?.label?.length" class="labels">
         <h3 class="mt-4">
